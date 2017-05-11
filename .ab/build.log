@@ -1,0 +1,54 @@
+Project "ts30.tmp.proj" (default targets):
+	ios Build Tooling revision 2017.05.10.1r
+	Build Tooling Hostname administrators-mac-5.local
+	Warning: npm
+	Warning: WARN NativeScript300 No description
+npm WARN NativeScript300 No repository field.
+npm WARN
+	Warning: NativeScript300 No license field.
+	Warning: [xcode-build] /Users/nsbuilduser/Library/Developer/Xcode/DerivedData/ModuleCache/2DSAEFMS05JFW/UIKit-1V5UHAPTOD24G.pcm: No such file or directory
+[xcode-build] /Users/nsbuilduser/Library/Developer/Xcode/DerivedData/ModuleCache/2DSAEFMS05JFW/Darwin-38I6DLZ5IH61J.pcm: No such file or directory
+[xcode-build] /Users/nsbuilduser/Library/Developer/Xcode/DerivedData/ModuleCache/2DSAEFMS05JFW/Foundation-3DFYNEBRQSXST.pcm: No such file or directory
+[xcode-build] /Users/nsbuilduser/Library/Developer/Xcode/DerivedData/ModuleCache/2DSAEFMS05JFW/Dispatch-2LX9MWM6UEPQW.pcm: No such file or directory
+[xcode-build] /Users/nsbuilduser/Library/Developer/Xcode/DerivedData/ModuleCache/2DSAEFMS05JFW/ObjectiveC-1RQA2RIXJIE19.pcm: No such file or directory
+	Warning: [xcode-build] /tmp/builds/qyaLF1z1lSwhRdDp2Y/app/output/NativeScript300/platforms/ios/Pods/KSCrash/Source/KSCrash/Recording/Sentry/KSCrashSentry_CPPException.mm:155:23
+exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    CATCH_VALUE(const char*,          s)
+                      ^
+[xcode-build] /tmp/builds/qyaLF1z1lSwhRdDp2Y/app/output/NativeScript300/platforms/ios/Pods/KSCrash/Source/KSCrash/Recording/Sentry/KSCrashSentry_CPPException.mm:155:23
+exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    CATCH_VALUE(const char*,          s)
+                ^
+[xcode-build] /tmp/builds/qyaLF1z1lSwhRdDp2Y/app/output/NativeScript300/platforms/ios/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m:112:17
+method override for the designated initializer of the superclass '-init' not found [-Wobjc-designated-initializers]
+@implementation AFNetworkReachabilityManager
+                ^
+[xcode-build] /tmp/builds/qyaLF1z1lSwhRdDp2Y/app/output/NativeScript300/platforms/ios/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m:160:17
+method override for the designated initializer of the superclass '-init' not found [-Wobjc-designated-initializers]
+@implementation AFURLConnectionOperation
+^
+[xcode-build] /tmp/builds/qyaLF1z1lSwhRdDp2Y/app/output/NativeScript300/platforms/ios/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m:289:57
+null passed to a callee that requires a non-null argument [-Wnonnull]
+        NSURLSessionDataTask *dataTask = [[NSURLSession sessionWithConfiguration:nil] dataTaskWithURL:nil];
+^
+[xcode-build] /tmp/builds/qyaLF1z1lSwhRdDp2Y/app/output/NativeScript300/platforms/ios/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m:289:87
+null passed to a callee that requires a non-null argument [-Wnonnull]
+        NSURLSessionDataTask *dataTask = [[NSURLSession sessionWithConfiguration:nil] dataTaskWithURL:nil];
+                                                        ^                        ~~~
+[xcode-build] /tmp/builds/qyaLF1z1lSwhRdDp2Y/app/output/NativeScript300/platforms/ios/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m:112:17
+method override for the designated initializer of the superclass '-init' not found [-Wobjc-designated-initializers]
+@implementation AFNetworkReachabilityManager
+                                                                                      ^               ~~~
+[xcode-build] /tmp/builds/qyaLF1z1lSwhRdDp2Y/app/output/NativeScript300/platforms/ios/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m:160:17
+method override for the designated initializer of the superclass '-init' not found [-Wobjc-designated-initializers]
+@implementation AFURLConnectionOperation
+^
+[xcode-build] /tmp/builds/qyaLF1z1lSwhRdDp2Y/app/output/NativeScript300/platforms/ios/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m:289:57
+null passed to a callee that requires a non-null argument [-Wnonnull]
+        NSURLSessionDataTask *dataTask = [[NSURLSession sessionWithConfiguration:nil] dataTaskWithURL:nil];
+^
+[xcode-build] /tmp/builds/qyaLF1z1lSwhRdDp2Y/app/output/NativeScript300/platforms/ios/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m:289:87
+null passed to a callee that requires a non-null argument [-Wnonnull]
+        NSURLSessionDataTask *dataTask = [[NSURLSession sessionWithConfiguration:nil] dataTaskWithURL:nil];
+                                                        ^                        ~~~
+Done building project "ts30.tmp.proj".
